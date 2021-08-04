@@ -1,6 +1,6 @@
 # This workflow will install Python dependencies, run security checks and lint
 
-name: D3fent tools
+name: D3fend tools
 
 on:
   push:
