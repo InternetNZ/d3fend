@@ -18,7 +18,7 @@ Pull requests are the best way to propose changes to the codebase (we use [Githu
 3. Make sure your code lints.
 4. Issue that pull request!
 
-## Any contributions you make will be under the MIT Software License
+## Any contributions you make will be under the BSD 3-Clause Software License
 In short, when you submit code changes, your submissions are understood to be under the same [BSD 3-Clause License](https://opensource.org/licenses/BSD-3-Clause) that covers the project. Feel free to contact the maintainers if that's a concern.
 
 ## Report bugs using Github's [issues](https://github.com/briandk/transcriptase-atom/issues)
