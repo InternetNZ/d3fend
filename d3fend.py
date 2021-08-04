@@ -37,7 +37,7 @@ def generate_csv(args):
 
     graph = Graph()
 
-    LOGGER.debug(f"Loading d3fend.json from {D3FEND_JSON_LD}")
+    LOGGER.debug("Loading d3fend.json from %s", D3FEND_JSON_LD)
     graph.parse(location=D3FEND_JSON_LD, format='json-ld')
 
     graph.namespace_manager.bind('rdf', RDF)
@@ -76,7 +76,7 @@ def generate_csv(args):
         csv_writer.writerow(row_header)
         csv_writer.writerows(rows)
 
-    LOGGER.info(f"{args.output} has been generated successfully.")
+    LOGGER.info("%s has been generated successfully.", args.output)
 
 
 if __name__ == '__main__':
