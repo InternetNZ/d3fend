@@ -4,7 +4,7 @@ A tool to work with MITRE D3FEND, a knowledge graph of cybersecurity countermeas
 **NOTE:** Rows 41, 42 and 43 don't have `d3fend-id` as they are in experimental state.
 
 ## How to install
-To run this script you `python 3.8+`.
+To run this script you need `python 3.8+`.
 
 Clone this repository:
 ```shell
