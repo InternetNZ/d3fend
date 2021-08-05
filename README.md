@@ -15,7 +15,7 @@ Create a python virtual environment (Optional):
 
 ```shell
 cd d3fend
-python3 -n venv d3fend-venv
+python3 -m venv d3fend-venv
 . d3fend-venv/bin/activate
 ```
 
